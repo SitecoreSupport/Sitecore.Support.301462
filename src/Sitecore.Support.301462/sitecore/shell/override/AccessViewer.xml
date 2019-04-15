@@ -21,7 +21,7 @@
           <div class="scStretchAbsolute" Style="overflow: auto;">
             <GridPanel Columns="3" Width="100%" Style="table-layout:fixed;height:100%;">
               <Scrollbox ContextMenu='Treeview.GetContextMenu("contextmenu")' GridPanel.Class='scAccessViewerTreeviewContainer' GridPanel.Width="100%" GridPanel.Height="100%" Class="scScrollbox scTreeviewContainerLayout">
-                <shell:AccessViewerTreeview ID="Treeview" DataContext="DataContext" Root="true" Class="scTreeview scTreeviewInnerLayout" />
+                <shell:AccessViewerTreeView ID="Treeview" DataContext="DataContext" Root="true" Class="scTreeview scTreeviewInnerLayout" />
               </Scrollbox>
               <VSplitter ID="AccessViewerLeft" GridPanel.Width="4" Target="right" GridPanel.Style="background:#e3e3e3; display:expression(previousSibling.style.display)" GridPanel.Height="100%" />
               <Scrollbox Class="scScrollbox" ID="Explanation" Height="100%" Background="window" Border="none" Padding="0px" GridPanel.Width="200" GridPanel.Height="100%" />
